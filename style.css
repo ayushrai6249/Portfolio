@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1D252F;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header .name {
+    width: 290px;
+    position: relative;
+    top: 8px;
+    left: -130px;
+}
+
+nav {
+    background-color: #040c2b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    /* position: fixed; */
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(157, 66, 242);
+    text-decoration: none;
+    font-size: 1.02rem;
+    font-weight: 900;
+}
+
+button {
+    border: 2px solid rgb(157, 66, 232);
+    padding: 8px 10px;
+    border-radius: 3px;
+    width: 6vw;
+    background-color: #1D252F;
+    color: white;
+    position: relative;
+    left: 180px;
+    top: 20px;
+
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgb(157, 66, 232);
+    text-shadow: 0 0 20px #fff, 0 0 30px rgb(157, 66, 232), 0 0 40px rgb(157, 66, 232), 0 0 50px rgb(157, 66, 232), 0 0 60px rgb(157, 66, 232), 0 0 70px rgb(157, 66, 232), 0 0 80px rgb(157, 66, 232);
+    transition: all 0.3s linear;
+}
+
+.left {
+    font-size: 2.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 137px 0 137px 0;
+}
+
+.firstSection>div {
+    width: 40%;
+}
+
+.leftSection {
+    font-size: 2rem;
+}
+
+/* .rightSection img {
+    width: 80%;
+} */
+.purple {
+    color: rgb(157, 66, 232);
+}
+
+.purple:hover {
+    text-shadow: 0 0 80px #fff, 0 0 60px rgb(157, 66, 242), 0 0 70px rgb(157, 66, 242), 0 0 80px rgb(157, 66, 242);
+}
+
+.extraInfo {
+    font-size: 1.2rem;
+}
+
+#element {
+    color: rgb(157, 66, 242);
+}
+
+hr {
+    /* width: 100%; */
+    /* text-align: center; */
+    margin: 0 10px 0 10px;
+    height: 1.2px;
+    border: 0;
+    /* background-color: rgb(157, 66, 242); */
+    background-color: silver;
+}
+
+.secondSection {
+    max-width: 80pw;
+    margin: 70px;
+    height: 72vh;
+}
+
+.secondSection h1 {
+    font-size: 1.5rem;
+}
+
+.grey {
+    color: silver;
+}
+
+.secondSection .box {
+    margin: 200px 0;
+    background-color: white;
+    height: 2px;
+    width: 185vh;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.imageTen {
+    width: 100px;
+    position: relative;
+    top: -80px;
+    left: -51px;
+}
+
+.veritcal-desc .violet {
+    color: rgb(157, 66, 242);
+    font-size: 15px;
+}
+
+.veritcal-desc .marks {
+    font-size: 15px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 16px;
+    left: -12px;
+    width: 150px;
+}
+
+.veritcal-desc {
+    position: relative;
+    top: 20px;
+    color: silver;
+    left: -12px;
+    width: 150px;
+    font-size: 11px;
+}
+
+/* social media */
+.social_media i {
+    border-radius: 50%;
+    font-size: 22px;
+    color: rgb(157, 66, 242);
+    opacity: 0.5;
+    padding: 0 15px;
+    transition: all 0.3s linear;
+}
+
+.social_media i:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    text-shadow: 0 0 50px #fff, 0 0 60px rgb(157, 66, 242), 0 0 70px rgb(157, 66, 242), 0 0 80px rgb(157, 66, 242);
+}
+
+.social_media {
+    position: relative;
+    left: 80px;
+    top: 10px;
+}
+
+#element:hover{
+    text-shadow: 0 0 50px #fff, 0 0 60px rgb(157, 66, 242), 0 0 70px rgb(157, 66, 242), 0 0 80px rgb(157, 66, 242);
+}

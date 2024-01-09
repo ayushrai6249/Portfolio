@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100&family=Roboto:ital,wght@0,300;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><img class="name" src="Ayush.png" alt="name"></div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello, My self <span class="purple name"><b><i>Ayush Rai</i></b></span>
+                <br>
+                I am
+                <br>
+                <!-- <div>I am a Web Developer</div> -->
+                <!-- <div>and I am C/C++ Programmer</div> -->
+                <span id="element"></span>
+                <br>
+                <div class="extraInfo">B.Tech CSE Student | Skilled in C/C++, HTML, CSS & javascript</div>
+                <div class="social_media">
+                    <ul>
+                        <a href="https://github.com/ayushrai6249" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100017644202591&mibextid=2JQ9oc"
+                            target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/ayush-rai6249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/ayush_rai624?igsh=cmM1ZTl3YWtqbDcy"><i
+                                class="fa-brands fa-instagram" target="_blank"></i></a>
+                        <a href="https://youtube.com/@ayushrai6249?si=3Y_xw-zz_NA9MRkF"><i class="fa-brands fa-youtube"
+                                target="_blank"></i></a>
+                    </ul>
+                </div>
+                <button type="button" class="button"><a href="#"><b>RESUME</b></a></button>
+            </div>
+            <div class="rightSection">
+                <img src="developer.png" alt="Developer Image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="grey">What I have done so far?</span>
+            <h1 class="purple">Experiences</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="imageTen" src="developer.png" alt="Class 10">
+                    <div class="vertical-title">
+                        <b> High School<br>(2019-20)</b>
+                    </div>
+                    <div class="veritcal-desc">
+                        I did my High School in Children Academy School. <br> <b><span class="violet"> PERCENTAGE -
+                            </span><span class="marks">81.4%</span></b>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="imageTen" src="developer.png" alt="developer">
+                    <div class="vertical-title">
+                        <b>Intermediate<br>(2021-22)</b>
+                    </div>
+                    <div class="veritcal-desc">
+                        I did my Intermediate in Mery city School. <br> <b><span class="violet"> PERCENTAGE -
+                            </span><span class="marks">87.6%</span></b>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="imageTen" src="developer.png" alt="developer">
+                    <div class="vertical-title">
+                        <b>Drop year<br>(2022-23)</b>
+                    </div>
+                    <div class="veritcal-desc">
+                        I opted for a gap year and dedicated my time to preparing for the Joint Entrance Examination.
+                        (JEE) at JRS Tutorials. <br> <b><span class="violet"> JEE Rank -
+                            </span><span class="marks">57889
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                (94.9%ile)</span></b>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="imageTen" src="developer.png" alt="developer">
+                    <div class="vertical-title">
+                        <b>Graduation<br>(2023-27)</b>
+                    </div>
+                    <div class="veritcal-desc">
+                        <b><u>Currently</u></b> I am currently pursuing a Bachelor of Technology (B.Tech) degree in
+                        Computer Science Engineering
+                        (CSE) at Madan Mohan Malaviya University of Technology.
+                        <!-- <br> <b><span class="violet"> CGPA
+                                -
+                            </span><span class="marks"></span></b> -->
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="imageTen" src="developer.png" alt="developer">
+                    <div class="vertical-title">
+                        <b>To be continued...<br>(2027-)</b>
+                    </div>
+                    <div class="veritcal-desc">
+                        "Envisioning a brighter tomorrow as my academic journey unfolds."
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <hr>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', '&amp; C/C++ Programmer', 'A Lazy coder.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
