@@ -103,6 +103,8 @@ button:hover {
 } */
 .purple {
     color: rgb(157, 66, 232);
+    transition: all 0.3s linear;
+
 }
 
 .purple:hover {
@@ -115,6 +117,8 @@ button:hover {
 
 #element {
     color: rgb(157, 66, 242);
+    transition: all 0.3s linear;
+
 }
 
 hr {
@@ -210,6 +214,39 @@ hr {
     top: 10px;
 }
 
-#element:hover{
+#element:hover {
     text-shadow: 0 0 50px #fff, 0 0 60px rgb(157, 66, 242), 0 0 70px rgb(157, 66, 242), 0 0 80px rgb(157, 66, 242);
+}
+
+footer {
+    background-color: #040C2B;
+    height: 36vh;
+}
+
+.footer {
+    display: flex;
+    max-height: 32vh;
+}
+
+.footer-first {
+    position: relative;
+    left: 200px;
+    top: 93px;
+}
+
+.footer-second {
+    position: relative;
+    left: 750px;
+    top: 100px;
+}
+
+.footer-third{
+    position: relative;
+    top: 200px;
+    left: 119px;
+}
+.purpleNew {
+    color: rgb(157, 66, 232);
+    transition: all 0.3s linear;
+    text-shadow: 0 0 80px #fff, 0 0 60px rgb(157, 66, 242), 0 0 70px rgb(157, 66, 242), 0 0 80px rgb(157, 66, 242);
 }
