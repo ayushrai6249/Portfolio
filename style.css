@@ -4,10 +4,13 @@
 }
 
 body {
-    background-color: #1D252F;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
+}
+main{
+    background-color: #1D252F;
+
 }
 
 header {
@@ -87,7 +90,7 @@ button:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 137px 0 137px 0;
+    height: 100vh;
 }
 
 .firstSection>div {
